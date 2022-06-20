@@ -17,3 +17,9 @@ resource "azurerm_resource_group" "rg" {
   location = var.location
   tags     = var.tags
 }
+
+resource "azurerm_resource_group" "rg2" {
+  name     = "SecondRGonPush"
+  location = var.location
+  tags     = var.tags
+}
