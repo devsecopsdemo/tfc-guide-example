@@ -23,3 +23,10 @@ resource "azurerm_resource_group" "rg2" {
   location = var.location
   tags     = var.tags
 }
+
+
+resource "azurerm_resource_group" "rg3" {
+  name     = "thirdrgfrommerge"
+  location = var.location
+  tags     = var.tags
+}
