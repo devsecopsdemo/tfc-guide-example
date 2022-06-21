@@ -12,28 +12,18 @@ provider "azurerm" {
   features {}
 }
  
-resource "azurerm_resource_group" "rg" {
-  name     = var.rg_name
+
+
+resource "azurerm_resource_group" "rg10" {
+  name     = "test12345"
   location = var.location
   tags     = var.tags
 }
 
 
 
-resource "azurerm_resource_group" "rg4" {
-  name     = "demotry"
-  location = var.location
-  tags     = var.tags
-}
-
-resource "azurerm_resource_group" "rg5" {
-  name     = "anothertest"
-  location = var.location
-  tags     = var.tags
-}
-
-resource "azurerm_resource_group" "rg6" {
-  name     = "demotry76321"
+resource "azurerm_resource_group" "rg22" {
+  name     = "myrg22"
   location = var.location
   tags     = var.tags
 }
