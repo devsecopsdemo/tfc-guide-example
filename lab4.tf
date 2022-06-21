@@ -18,15 +18,11 @@ resource "azurerm_resource_group" "rg" {
   tags     = var.tags
 }
 
-resource "azurerm_resource_group" "rg2" {
-  name     = "SecondRGonPush"
+
+
+resource "azurerm_resource_group" "rg4" {
+  name     = "demotry"
   location = var.location
   tags     = var.tags
 }
 
-
-resource "azurerm_resource_group" "rg3" {
-  name     = "thirdrgfrommerge"
-  location = var.location
-  tags     = var.tags
-}
